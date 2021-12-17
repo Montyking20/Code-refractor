@@ -15,6 +15,13 @@ Added comments to HTML and CSS
 Corrected html code
 Made it work on a phone
 
+### Links
+
+[website](https://montyking20.github.io/Code-refractor/)
+
+[Code-refactor](https://github.com/Montyking20/Code-refractor/tree/main/week1)
+
+
 ## What is should look like
 
 ![website picture](./assets/images/01-html-css-git-homework-demo.png)
