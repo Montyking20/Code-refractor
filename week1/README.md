@@ -17,7 +17,7 @@ Made it work on a phone
 
 ## What is should look like
 
-![website picture] (https://github.com/[Montyking20]/[Code-refractor]/blob/[main/week1/Assets/images]/01-html-css-git-homework-demo.png)
+![website picture] (./assets/images]/01-html-css-git-homework-demo.png)
 
 
 
