@@ -17,7 +17,7 @@ Made it work on a phone
 
 ## What is should look like
 
-![website picture](./assets/images]/01-html-css-git-homework-demo.png)
+![website picture](./assets/images/01-html-css-git-homework-demo.png)
 
 
 
