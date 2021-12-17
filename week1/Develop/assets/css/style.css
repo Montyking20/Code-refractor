@@ -8,8 +8,8 @@
 
 body {
     background-color: #d9dcd6;
+    margin: 0;
 }
-
 
 a {
     color: #ffffff;
@@ -38,7 +38,7 @@ p {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,11 +46,11 @@ p {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,6 +62,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
 }
 
 .float-left {
@@ -78,6 +79,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+   
 }
 
 .benefits {
@@ -89,6 +91,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 .benefit-lead {
@@ -164,6 +167,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+  
 }
 
 .search-engine-optimization img {
@@ -176,6 +180,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+  
 }
 
 .search-engine-optimization h2 {
@@ -191,6 +196,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    
 }
 
 .footer {
@@ -203,3 +209,70 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* media attributes*/
+
+@media screen and (max-width: 992px){
+.search-engine-optimization, .search-engine-optimization h2, .search-engine-optimization p, .search-engine-optimization img {
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        text-align: center; 
+         
+}}
+    
+ @media screen and (max-width: 768px){
+ .search-engine-optimization, .search-engine-optimization h2, .search-engine-optimization p, .search-engine-optimization img {
+        width: 100%;
+        height: 100%;
+        font-size: 100%;
+        text-align: center;
+ }}
+
+@media screen and (max-width: 992px) {
+.online-reputation-management, .online-reputation-management img, .online-reputation-management h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+}}
+
+@media screen and (max-width: 768px) {
+.online-reputation-management, .online-reputation-management img, .online-reputation-management h2 {
+       width: 100%;
+       height: 100%;
+       font-size: 100%;
+       text-align: center;
+}}
+
+@media screen and (max-width: 992px) {
+.social-media-marketing, .social-media-marketing img, .social-media-marketing h2{
+           width: 100%;
+           height: 100%;
+           font-size: 100%;
+           text-align: center;
+}}
+
+@media screen and (max-width: 768px){
+.social-media-marketing, .social-media-marketing img, .social-media-marketing h2{
+           width: 100%;
+           height: 100%;
+           font-size: 100%;
+           text-align: center;
+       
+}}
+
+@media screen and (max-width: 992px) {
+.benefits{
+           width: 80%;
+           height: 80%;
+         font-size: 100%;
+               text-align: center;
+}}
+
+ @media screen and (max-width: 768px){
+.benefits {
+               width: 100%;
+               height: 100%;
+               font-size: 100%;
+}}
